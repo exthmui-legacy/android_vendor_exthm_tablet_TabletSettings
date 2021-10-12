@@ -1,4 +1,4 @@
-package com.boringdroid.settings
+package org.exthmui.tablet.settings
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -17,6 +17,7 @@ import android.widget.TextView
 import androidx.appcompat.widget.SwitchCompat
 import androidx.preference.PreferenceFragmentCompat
 import androidx.recyclerview.widget.RecyclerView
+import org.exthmui.tablet.settings.R
 import java.lang.reflect.InvocationTargetException
 
 class BoringdroidFullscreenManageFragment : PreferenceFragmentCompat() {

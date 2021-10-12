@@ -1,4 +1,4 @@
-package com.boringdroid.settings
+package org.exthmui.tablet.settings
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -10,6 +10,7 @@ import android.util.Log
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
+import org.exthmui.tablet.settings.R
 import java.lang.reflect.InvocationTargetException
 
 class BoringdroidSettingsFragment : PreferenceFragmentCompat() {

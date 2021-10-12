@@ -1,7 +1,8 @@
-package com.boringdroid.settings
+package org.exthmui.tablet.settings
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import org.exthmui.tablet.settings.R
 
 class BoringdroidSettings : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

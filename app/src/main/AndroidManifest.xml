@@ -2,11 +2,11 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     coreApp="true"
-    package="com.boringdroid.settings"
+    package="org.exthmui.tablet.settings"
     android:sharedUserId="android.uid.system">
 
     <application
-        android:name=".BoringdroidSettingsApplication"
+        android:name="org.exthmui.tablet.settings.BoringdroidSettingsApplication"
         android:allowBackup="false"
         android:defaultToDeviceProtectedStorage="true"
         android:hardwareAccelerated="true"
@@ -19,7 +19,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".BoringdroidSettings"
+            android:name="org.exthmui.tablet.settings.BoringdroidSettings"
             android:exported="true"
             android:icon="@drawable/ic_icon"
             android:label="@string/ic_name">

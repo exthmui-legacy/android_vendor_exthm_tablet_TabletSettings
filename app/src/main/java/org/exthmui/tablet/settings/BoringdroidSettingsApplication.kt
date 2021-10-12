@@ -1,4 +1,4 @@
-package com.boringdroid.settings
+package org.exthmui.tablet.settings
 
 import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate

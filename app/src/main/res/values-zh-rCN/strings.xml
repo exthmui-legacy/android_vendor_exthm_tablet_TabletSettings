@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ic_name">exTHmUI 平板模式设置</string>
+    <string name="title_category_bd_about">关于</string>
+    <string name="title_switch_enable_pc_mode">启用多窗口模式</string>
+    <string name="title_bd_developer">开发者</string>
+    <string name="summary_bd_developer">由来自 Boringdroid 的 utzcoz 开发，彁 修改合并入 exTHmUI</string>
+    <string name="summary_bd_group">Boringdroid 是 Bliss Family Project 的其中一个项目！</string>
+    <string name="title_set_all_fullscreen_apps">设置全屏应用</string>
+    <string name="title_category_bd_systemui">导航栏设置</string>
+    <string name="title_category_pc_mode">多窗口模式</string>
+    <string name="title_switch_enable_bd_nav_bar">启用多任务导航栏</string>
+    <string name="boringdorid_dashboard_title">exTHmUI 平板模式设置</string>
+    <string name="boringdorid_dashboard_summary" translatable="false">配置平板电脑属性</string>
+</resources>
