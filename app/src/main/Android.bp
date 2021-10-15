@@ -1,0 +1,28 @@
+android_app {
+    name: "TabletSettings",
+
+    resource_dirs: ["res"],
+
+    srcs: [
+        "java/**/*.kt",
+        "java/**/*.java",
+        "java/**/I*.aidl",
+    ],
+    aidl: {
+        local_include_dirs: ["java"],
+    },
+
+    static_libs: [
+        "androidx.annotation_annotation",
+        "androidx.appcompat_appcompat",
+        "androidx.preference_preference",
+        "androidx.recyclerview_recyclerview",
+    ],
+
+    optimize: {
+        enabled: false,
+    },
+    certificate: "platform",
+    platform_apis: true,
+
+}
